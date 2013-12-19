@@ -1,0 +1,264 @@
+
+
+/* ---> Default Styling  ......................................... */
+
+        * { box-sizing: border-box; }
+
+        html {
+            font-size: 20px;
+            font-family: Avenir;
+            letter-spacing: .5px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            color: white;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        li:hover {
+            color: black;
+            background-color: silver;
+        }
+
+        .clearfix:after {
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }        
+
+        .hidden { display: none; }
+
+
+ /* ---> Body ................................................. */
+
+        #bodyContainer {
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+
+ /* ---> Header ............................................... */
+
+        #headerContainer {
+            width: 100%;
+            background-color: black;
+            border-top-left-radius:  15px;
+            border-top-right-radius: 15px;
+            border-top:   solid white 1px;
+            border-right: solid white 1px;
+            border-left:  solid white 1px;
+        }
+
+        #eazeLogo {
+            height: 30px;
+            width: auto;
+            margin-top:    10px;
+            margin-bottom: 10px;
+            margin-left:   15px;
+            margin-right:  5px;
+            float: left;
+            outline: none;
+            border: none;
+        }
+        
+        #searchBar {
+            margin-top:    25px;
+            margin-bottom: 10px;
+            margin-right:  15px;
+            margin-left:   5px;
+            float: right;
+            max-width: 30%;
+            min-width: 20%;
+            height: 15px;
+            border-radius: 15px;
+            padding: 2px;
+            border: 0;
+            outline: none;
+            color: silver;
+        }
+
+
+ /* ---> Nav .................................................. */
+
+        #navContainer {
+            background-color: black;
+            width: 100%;
+            border: solid white 1px;
+        }
+
+        .nav {
+            background-color: black;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .container {
+            width: 33.33%;
+            display: inline;
+            float: left;
+        }
+
+        .dept {
+            width: 100%;
+            font-size: 1em;
+        }
+
+        .menu { display: none; }
+
+        .category {
+            font-size: .6em;
+            width: 33.33%;
+            float: left;
+        }
+
+/*        .mens.category:hover {
+            background-color: SlateGray ;
+        }*/
+
+/*        .womens.category:hover {
+            background-color: LavenderBlush ; 
+        }*/
+
+/*        .accessories.category:hover {
+            background-color: PaleGoldenRod; 
+        }*/
+
+        
+ /*---> Images ............................................... */
+
+        #imgContainer {
+            width: 100%;
+            display: none;
+        }
+        
+        .productWrapper {
+            width: 33.33%;
+            float: left;
+            padding: 0;
+            margin:0;
+            border: solid white 1px;
+        }
+
+        img { 
+            width: 100%;
+            z-index: 1;
+        }
+
+
+ /*---> Love It / Buy It ............................................. */
+
+        .loveItBuyIt {
+            background-image: url("loveItBuyIt/heartcart2.png");
+            background-size: cover;
+            opacity: .9;
+            float: left;
+            position: absolute; 
+            z-index: 2;
+            display: none;
+        }
+
+
+ /*---> Info ................................................. */
+
+        #infoContainer {
+            width: 100%;
+            height: 300px;
+            background-color: silver;
+            border: solid white 1px;
+            display: none;
+        }
+
+        .info {
+            margin-top: auto;
+            color: black;
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: normal;
+            color: white;
+            margin-top: 90px;
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+
+        p,a { font-size: .7em; }
+
+        a:link {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: white;
+        }
+
+        span { color: white; }
+               
+        #about, #faq, #contact { display: none; }    
+
+        
+ /*---> Footer ............................................... */
+
+        #footerContainer {
+            width: 100%;  
+            height: 31px;     
+            border-bottom: solid white 1px;
+            border-right:  solid white 1px;
+            border-left:   solid white 1px;
+            margin-bottom: 10px;
+        }
+
+        #footerLeft {
+            background-color: black;                
+            font-size: .6em;
+            width: 33.33%;
+            height: 30px;
+            line-height: 30px;
+            float: left;
+            border-bottom-left-radius: 15px;
+            box-sizing: border-box;
+        }
+
+        .bottomLeft:hover { border-bottom-left-radius: 13px; }
+
+        .left.footer {
+            width: 33.33%;
+            float: left;
+        }
+
+        #footerRight {
+            background-color: black;
+            float: right;
+            color: white;
+            width: 66.66%;
+            height: 30px;
+            border-bottom-right-radius: 15px;
+        }
+
+        #allRights {
+            color: white;
+            font-size: .5em;
+            position: relative;
+            float: right;
+            margin-bottom: 0;
+            margin-right: 15px; 
+            line-height: 25px;
+        }
+
+} 
+

@@ -1,0 +1,187 @@
+
+
+<html>
+
+<head>
+	<title> eCommerce </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.mobile.css">
+	<link rel="stylesheet" type="text/css" href="style.large.css">
+</head>
+
+
+<!-- Body .....................................................  -->
+
+<body>
+	
+<div id="bodyContainer">
+
+ <!-- Header ............................................  -->
+
+	<header>
+		<div id="headerContainer" class="clearfix">
+
+			<img id="eazeLogo" src="logo/eaze_co-logo_bigdot.png">
+
+			<input type="search" id="searchBar" value="search">
+			
+		</div>
+	</header>
+
+
+ <!-- Nav ...............................................  -->
+
+	<nav class="clearfix" id="navContainer">
+
+	 <!-- Mens -->
+		<div class="nav container mens" id="mensContainer">
+
+			<li class="nav dept mens"> mens </li>
+
+			<ul class="nav menu mens clearfix">
+				<li class="mens category" data-dept="mens" data-category="jackets" > jackets </li>
+				<li class="mens category" data-dept="mens" data-category="shirts"  > shirts  </li>
+				<li class="mens category" data-dept="mens" data-category="pants"   > pants   </li>
+			</ul>
+
+		</div>	
+
+	 <!-- Womens -->
+		<div class="nav container womens" id="womensContainer">
+
+			<li class="nav dept womens"> womens </li>
+
+			<ul class="nav menu womens clearfix">
+				<li class="womens category" data-dept="womens" data-category="sweaters" > sweaters </li>
+				<li class="womens category" data-dept="womens" data-category="dresses"  > dresses  </li>
+				<li class="womens category" data-dept="womens" data-category="pants"    > pants    </li>
+			</ul>
+
+		</div>
+
+	 <!-- Accessoires -->
+		<div class="nav container accessories" id="accessoriesContainer">
+
+			<li class="nav dept accessories"> accessories </li>
+
+			<ul class="nav menu accessories clearfix">
+				<li class="accessories category" data-dept="accessories" data-category="bags"     > bags     </li>
+				<li class="accessories category" data-dept="accessories" data-category="shoes"    > shoes    </li>
+				<li class="accessories category" data-dept="accessories" data-category="bandanas" > bandanas </li>
+			</ul>
+
+		</div>
+
+	</nav>	
+
+
+ <!-- Product .............................................  -->
+
+	<div id="imgContainer" class="clearfix" > 
+
+	 <!-- loveItBuyIt -->
+		<!-- <div class="loveItBuyIt"> Love It <br> or <br> Buy It </div> -->
+		
+	 <!-- row 1	 -->
+       	<div class="productWrapper" data-product="1"> 
+       		<div class="loveItBuyIt"></div>
+       		<img class="productImage engagedProduct" data-img="1">
+       	</div>
+       	
+       	<div class="productWrapper" data-product="2"> 
+       		<img class="productImage" data-img="2">
+       	</div>
+       	
+       	<div class="productWrapper" data-product="3"> 
+       		<img class="productImage" data-img="3">
+       	</div> 
+
+	 <!-- row 2	 -->
+       	<div class="productWrapper" data-product="4"> 
+       		<img class="productImage" data-img="4">
+       	</div>
+       	
+       	<div class="productWrapper" data-product="5"> 
+       		<img class="productImage" data-img="5">
+       	</div>
+       	
+       	<div class="productWrapper" data-product="6"> 
+       		<img class="productImage" data-img="6">
+       	</div>
+      	
+	 <!-- row 3	 -->
+       	<div class="productWrapper" data-product="7"> 
+       		<img class="productImage" data-img="7">
+       	</div>
+       	
+       	<div class="productWrapper" data-product="8"> 
+       		<img class="productImage" data-img="8">
+       	</div>
+       	
+       	<div class="productWrapper" data-product="9"> 
+       		<img class="productImage" data-img="9">
+       	</div>
+
+	</div>
+
+
+ <!-- Info ................................................  -->
+
+ 	<div id="infoContainer" class="clearfix" >
+
+ 		<div id="about" class="info" data-info="about" >
+ 			<h1> about </h1>
+ 			<p> 
+ 				this site is dedicated <br> to the exploration of <br> ecommerce & web design
+ 			</p>
+ 		</div>
+
+ 		<div id="faq" class="info" data-info="faq" >
+ 			<h1> faq </h1>
+ 			<p> 
+ 				<span>eaze co.</span> is a pseudo-brand <br> created by eric vince 
+ 			</p>
+ 		</div>
+ 		
+ 		<div id="contact" class="info" data-info="contact" >
+ 			<h1> contact </h1>
+ 			<a href="mailto:eric@eaze-co.com"> 
+ 				eric@eaze-co.com
+ 			</a>
+ 		</div>
+
+ 	</div>
+
+
+ <!-- Footer ............................................... -->
+
+	<footer>
+		<div id="footerContainer">
+			
+			<div class="footer left" id="footerLeft">
+				<ul>
+				    <li class="footer left about bottomLeft" data-link="about"> about </li>
+				    <li class="footer left faq" data-link="faq"> faq </li>
+				    <li class="footer left contact" data-link="contact"> contact </li>
+				</ul>
+			</div>
+
+			<div class="footer right" id="footerRight"> 
+				<p id="allRights"> all rights reserved. </p> 
+			</div>
+
+		</div>
+	</footer>
+
+</div>
+	
+
+<!-- jQuery CDN -->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+ 
+	
+</body>
+
+</html>

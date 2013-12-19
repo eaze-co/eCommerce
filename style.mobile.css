@@ -1,0 +1,52 @@
+
+
+/*---> Media Query - Mobile ...................................... */
+
+@media ( max-width: 600px ) { 
+
+
+ /* ---> Body ................................................. */
+
+    #bodyContainer { width: 100%; } 	
+
+
+ /* ---> Header ............................................... */
+
+    #eazeLogo {
+        height: 25px;
+        margin-top:    15px;
+    }
+
+
+ /* ---> Nav .................................................. */
+
+    .container {
+        width: 100%;
+        outline: solid white 1px;
+    }
+
+
+ /*---> Images ............................................... */
+
+    #imgContainer {
+        height: 580px;
+        overflow: scroll;
+    }   
+        
+    .productWrapper { width: 100%; }    
+
+
+ /*---> Love It / Buy It ............................................. */
+
+        .loveItBuyIt {
+            overflow: scroll;
+            position: absolute; 
+        }    
+
+ /*---> Footer ............................................... */
+	
+	#footerLeft { width: 60%; }
+	
+	#footerRight { width: 40%; }
+
+}
