@@ -64,7 +64,6 @@
         	$("#imgContainer").slideDown();
         	$("#infoContainer").slideUp();
         	$("#footerContainer").css("border-top", "solid white 1px");
-        	// $(".loveItBuyIt").hide();	
 		})
 
 
@@ -149,7 +148,7 @@
 				var imgHeight = $(".productWrapper").height();
 				$(".loveItBuyIt").css({ width: imgWidth, height: imgHeight });
 
-        		$(".loveItBuyIt").show();
+        		// $(".loveItBuyIt").show();
 
         		// var loveItBuyIt = $("<div class="loveItBuyIt"></div>");
 				// $this.attr(".engagedProduct").append(loveItBuyIt);
@@ -595,5 +594,7 @@ var products =
 	}, 
 
  // ---> end .......................................................
+}	
+				............................
 }	
 				
